@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Icehunter-Extended</string>
+	<string>Icehunter</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -79,19 +79,7 @@
 				<string>italic</string>
 			</dict>
 		</dict>
-
-		<dict>
-			<key>name</key>
-			<string>constant, entity.other.attribute-name</string>
-			<key>scope</key>
-			<string>constant, entity.other.attribute-name</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#ff9800</string>
-			</dict>
-		</dict>
-
+		
 		<dict>
 			<key>name</key>
 			<string>string</string>
@@ -176,7 +164,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#f44336</string>
+				<string>#963cb3</string>
 			</dict>
 		</dict>
 
@@ -194,6 +182,129 @@
 			</dict>
 		</dict>
 
+		<!-- C# CUSTOM //-->
+		<dict>
+			<key>name</key>
+			<string>storage.type</string>
+			<key>scope</key>
+			<string>storage.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#82d12e</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>keyword.control.conditional.if</string>
+			<key>scope</key>
+			<string>keyword.control.conditional.if</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9c27b0</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>keyword.operator.increment</string>
+			<key>scope</key>
+			<string>keyword.operator.increment</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b680bf</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>keyword.type</string>
+			<key>scope</key>
+			<string>keyword.type</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#00bcd4</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>keyword.operator.relational</string>
+			<key>scope</key>
+			<string>keyword.operator.relational</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9976db</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>constant, entity.other.attribute-name</string>
+			<key>scope</key>
+			<string>constant, entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#ff9800</string>
+			</dict>
+		</dict>
+		<!-- END C# CUSTOM //-->
+
+		<!-- HTML CUSTOM //-->
+		<dict>
+			<key>name</key>
+			<string>punctuation.definition.tag, punctuation.section.embedded</string>
+			<key>scope</key>
+			<string>punctuation.definition.tag, punctuation.section.embedded</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9976db</string>
+			</dict>
+		</dict>
+		<!-- END HTML CUSTOM //-->
+
+		<!-- JS CUSTOM -->
+		<dict>
+			<key>name</key>
+			<string>js template-expression</string>
+			<key>scope</key>
+			<string>punctuation.definition.template-expression.begin.js, punctuation.definition.template-expression.end.js</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#e06c75ff</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>js meta.template.expression.js variable.other.readwrite.js</string>
+			<key>scope</key>
+			<string>meta.template.expression.js variable.other.readwrite.js</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#f2cbd0</string>
+			</dict>
+		</dict>
+		<!-- END JS CUSTOM //-->
 	</array>
 
 	<key>uuid</key>
@@ -201,8 +312,8 @@
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.dark.icehunter-extended_syntax</string>
+	<string>theme.dark.icehunter_syntax</string>
 	<key>author</key>
-	<string>Chris Faustin</string>
+	<string>Icehunter</string>
 </dict>
 </plist>
