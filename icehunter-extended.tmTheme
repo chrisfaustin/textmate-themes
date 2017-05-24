@@ -305,6 +305,66 @@
 			</dict>
 		</dict>
 		<!-- END JS CUSTOM //-->
+
+		
+		<!-- JSON CUSTOM -->		
+		<dict>
+			<key>name</key>
+			<string>punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json</string>
+			<key>scope</key>
+			<string>punctuation.definition.dictionary.begin.json, punctuation.definition.dictionary.end.json, punctuation.separator.dictionary.key-value.json</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#cddc39</string>
+			</dict>
+		</dict>	
+		<dict>
+			<key>name</key>
+			<string>punctuation.definition.array.begin.json, punctuation.definition.array.end.json</string>
+			<key>scope</key>
+			<string>punctuation.definition.array.begin.json, punctuation.definition.array.end.json</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#8bc34a</string>
+			</dict>
+		</dict>		
+		<dict>
+			<key>name</key>
+			<string>punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json</string>
+			<key>scope</key>
+			<string>punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#9cdefc</string>
+			</dict>
+		</dict>			
+		<dict>
+			<key>name</key>
+			<string>support.type.property-name.json</string>
+			<key>scope</key>
+			<string>support.type.property-name.json</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#03a9f4</string>
+			</dict>
+		</dict>				
+		<dict>
+			<key>name</key>
+			<string>punctuation.definition.string.begin.json, string.quoted.double.json, punctuation.definition.string.end.json</string>
+			<key>scope</key>
+			<string>punctuation.definition.string.begin.json, string.quoted.double.json, punctuation.definition.string.end.json</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#e0e0e0</string>
+			</dict>
+		</dict>				
+		
+		<!-- END JSON CUSTOM -->
 	</array>
 
 	<key>uuid</key>
