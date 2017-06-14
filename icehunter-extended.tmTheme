@@ -400,6 +400,17 @@
 			<string>#cddc39</string>
 			</dict>
 		</dict>	
+		<dict>
+			<key>name</key>
+			<string>beginning.punctuation.definition.list.markdown</string>
+			<key>scope</key>
+			<string>beginning.punctuation.definition.list.markdown</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#41f45f</string>
+			</dict>
+		</dict>	
 	</array>
 
 	<key>uuid</key>
