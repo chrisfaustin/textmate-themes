@@ -365,6 +365,41 @@
 		</dict>				
 		
 		<!-- END JSON CUSTOM -->
+
+		<!-- MARKDOWN -->
+		<dict>
+			<key>name</key>
+			<string>markup.bold.markdown</string>
+			<key>scope</key>
+			<string>markup.bold.markdown</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#7caaf4</string>
+			</dict>
+		</dict>	
+		<dict>
+			<key>name</key>
+			<string>punctuation.definition.bold.markdown</string>
+			<key>scope</key>
+			<string>punctuation.definition.bold.markdown</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#4286f4</string>
+			</dict>
+		</dict>	
+		<dict>
+			<key>name</key>
+			<string>markup.heading.markdown, entity.name.section.markdown</string>
+			<key>scope</key>
+			<string>markup.heading.markdown, entity.name.section.markdown</string>
+			<key>settings</key>
+			<dict>
+			<key>foreground</key>
+			<string>#cddc39</string>
+			</dict>
+		</dict>	
 	</array>
 
 	<key>uuid</key>
